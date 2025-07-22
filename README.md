@@ -7,20 +7,11 @@
 
 #### Resumen del curso
 Introducción a PostgreSQL y PostGIS, configuración y gestión básica
-Usod el complemento DB Manager de QGIS para administrar los datos
-
-#### Presentación y normas de uso
-Benvinguda i instruccions d'ús
-../../ZProjectA/Barcelona_Activa/Documents/Formacio_Virtual_Teams/Regles_d'ús (003).pptx
-
-Recordeu mantenir desconnectades la vostra càmera i micròfon per evitar interferències.
-
-Les preguntes es fan principalment pel xat. Si no disposeu d’aquesta icona, pengeu, elimineu cookies (o accedir en una pestanya en incògnit) i torneu a accedir. Si segueix sense aparèixer, pots fer les preguntes a través del micròfon al final de la sessió.
 
 ## Primero hay que descarregar los ficheros comprimidos en zip de este enlace, y descomprimirlos
-Link material del curs([https://drive.google.com/file/d/1fJrQ-wW-jiXVHwJ19aUtqWVe96Auqpmv/view?usp=sharing](https://drive.google.com/file/d/1lXXKmcq46lLAUaWUsCmw8fSTJDGK_MEU/view?usp=sharing))]([https://drive.google.com/file/d/1DpPD56c4NCnsDp4cXwaiQT9JodEpsVnE/view?usp=sharing](https://drive.google.com/file/d/1lXXKmcq46lLAUaWUsCmw8fSTJDGK_MEU/view?usp=sharing)) (25 MB)
+Link material del curs([https://drive.google.com/file/d/1-RnbCtC-7NPP-5YFcJ-6c1nRe4rVYa2W/view?usp=sharing]) (25 MB)
 
-## Hay que tener instalado PostgreSQL, PostGIS, pgAdmin 4 y QGIS Desktop
+## Hay que tener instalado PostgreSQL, PostGIS, pgAdmin 4 y ...... QGIS Desktop
 
 ### Windows
 Toturial como instalar postgreSQL y PostGIS en Windows
