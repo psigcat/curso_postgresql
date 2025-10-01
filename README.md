@@ -1,7 +1,7 @@
 
-# Curso de introducción a PostgreSQL y PostGIS
+# Curso de PostgreSQL intensivo
 
-## https://github.com/psigcat/curso_postgis_1_intro
+## https://github.com/psigcat/curso_postgresql
 
 ## Tema 1 Introducción
 
@@ -9,9 +9,9 @@
 Introducción a PostgreSQL y PostGIS, configuración y gestión básica
 
 ## Primero hay que descarregar los ficheros comprimidos en zip de este enlace, y descomprimirlos
-Link material del curs([https://drive.google.com/file/d/1-RnbCtC-7NPP-5YFcJ-6c1nRe4rVYa2W/view?usp=sharing]) (25 MB)
+Link material del curs([[https://drive.google.com/file/d/1-RnbCtC-7NPP-5YFcJ-6c1nRe4rVYa2W/view?usp=sharing](https://drive.google.com/file/d/1gnWKqoVd629DHXb93-j_OfwBF3RYIH-h/view?usp=sharing)]) (25 MB)
 
-## Hay que tener instalado PostgreSQL, PostGIS, pgAdmin 4 y ...... QGIS Desktop
+## Hay que tener instalado PostgreSQL, PostGIS, pgAdmin 4 y ...... otro cliente????
 
 ### Windows
 Toturial como instalar postgreSQL y PostGIS en Windows
@@ -27,7 +27,7 @@ https://docs.qgis.org/3.10/en/docs/user_manual/managing_data_source/opening_data
 ## Pasos a hacer
 ##### 1 Instalar PostgreSQL 17
 
-##### 2 Instalar PostGIS 3
+##### 2 Instalar PostGIS 3, con Stackbuilder
 
 ##### 3 Instalar pgAdmin4 9
 
@@ -39,7 +39,7 @@ https://docs.qgis.org/3.10/en/docs/user_manual/managing_data_source/opening_data
 - password=??
 
 ##### 5 Crear una nueva base de datos = **gis_curso**
-Utilizar como plantilla (template) la base de datos "postgres"
+Utilizar como plantilla (template) la base de datos "postgres", si se puede
 
 ##### 6 Activar la extensión de PostGIS
 Ejecutar la sintaxi siguiente en una "Query Tool"
@@ -49,18 +49,18 @@ Ejecutar la sintaxi siguiente en una "Query Tool"
 Ejecutar la sintaxi siguiente en una "Query Tool", antes de ejecutarlo reemplazar el texto 'your_password' por un password vuestro personal y guardarlo en agún sitio seguro como keepass
 - CREATE ROLE **gisadmin** login PASSWORD **'your_password'** SUPERUSER CREATEDB CREATEROLE NOINHERIT;
 
-##### 8 Abrir QGIS con el usuario gisadmin
+##### 8 Abrir pgAdmin con el usuario gisadmin
 Crear un nueva conexión con el usuario gisadmin y guardar la conexión
 
-##### 9 Utilizar el DB Manager para cargar capas
-- Abrimos el complemento DB Manager
-- Primero creamos nuevos esquemas 
+##### 9 Crear schemas de trabajo
+Primero creamos nuevos esquemas 
   - limit_admin 
   - medi_ambient
 
-Luego importar las capas de municipis, comarques y PEIN, cómo mínimo.
-Cargar las capas que hay en la carpeta Datos
-
+##### 10 importar las tablas
+Editamos los ficheros SQL que tenemos en la carpeta Datos
+  - espais_pein.sql 
+  - municipis_catalunya.sql
 
 #### video 1- Instalar, configurar PostGIS e importar capas
 https://youtu.be/_EgtELrjLO4
